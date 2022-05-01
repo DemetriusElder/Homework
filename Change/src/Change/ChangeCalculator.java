@@ -24,29 +24,36 @@ public class ChangeCalculator {
 			//These below calculate the amount remainder and set it equal to that and round off to solve the double error
 			amount -= temp*change[i];
 			amount = Math.round(amount * 100.0) / 100.0;
-			//switch statement to print the correct prompt
-			switch(i) {
-				case 0: System.out.println(""+temp+" twenty dollar bills.");
-					break;
-				case 1: System.out.println(""+temp+" ten dollar bills.");
-					break;
-				case 2: System.out.println(""+temp+" five dollar bills.");
-					break;
-				case 3: System.out.println(""+temp+" two dollar bills.");
-					break;
-				case 4: System.out.println(""+temp+" one dollar bills.");
-					break;
-				case 5: System.out.println(""+temp+" fifty cent coins.");
-					break;
-				case 6: System.out.println(""+temp+" quarters.");
-					break;
-				case 7: System.out.println(""+temp+" dimes.");
-					break;
-				case 8: System.out.println(""+temp+" nickles.");
-					break;
-				case 9: System.out.println(""+temp+" pennies.");
-					break;
-			}//end switch
+			//if statement to print the correct prompt
+			if(i==0) {
+				System.out.println(""+temp+" twenty dollar bills.");
+			  }
+			else if(i==1) {
+				System.out.println(""+temp+" ten dollar bills.");
+			  }
+			else if(i==2) {
+				System.out.println(""+temp+" two dollar bills.");
+			  }
+			else if(i==3) {
+				System.out.println(""+temp+" one dollar bills.");
+			  }
+			else if(i==4) {
+				System.out.println(""+temp+" fifty cent coins.");
+			  }
+			else if(i==5) {
+				System.out.println(""+temp+" quarters.");
+			  }
+			else if(i==6) {
+				System.out.println(""+temp+" dimes.");
+			  }
+			else if(i==7) {
+				System.out.println(""+temp+" nickles.");
+			  }
+			else if(i==8) {
+				System.out.println(""+temp+" pennies.");
+			  }
+			else if(i==9) {
+			  }
 		}//end for loop
 		scanner.close();
 	}//end main
