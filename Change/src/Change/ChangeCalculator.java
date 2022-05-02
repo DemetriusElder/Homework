@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class ChangeCalculator {
 	
 	public static void main(String[] args) {
-		//Ask for inputing amount
+		//Ask for input amount
 		System.out.println("Please enter the amount you want to calculate change for : ");
 		Scanner scanner = new Scanner(System.in);
 		//Declaration of variables
@@ -32,27 +32,28 @@ public class ChangeCalculator {
 				System.out.println(""+temp+" ten dollar bills.");
 			  }
 			else if(i==2) {
-				System.out.println(""+temp+" two dollar bills.");
+				System.out.println(""+temp+" five dollar bills.");
 			  }
 			else if(i==3) {
-				System.out.println(""+temp+" one dollar bills.");
+				System.out.println(""+temp+" two dollar bills.");
 			  }
 			else if(i==4) {
-				System.out.println(""+temp+" fifty cent coins.");
+				System.out.println(""+temp+" one dollar bills.");
 			  }
 			else if(i==5) {
-				System.out.println(""+temp+" quarters.");
+				System.out.println(""+temp+" fifty cent coins.");
 			  }
 			else if(i==6) {
-				System.out.println(""+temp+" dimes.");
+				System.out.println(""+temp+" quarters.");
 			  }
 			else if(i==7) {
-				System.out.println(""+temp+" nickles.");
+				System.out.println(""+temp+" dimes.");
 			  }
 			else if(i==8) {
-				System.out.println(""+temp+" pennies.");
+				System.out.println(""+temp+" nickles.");
 			  }
 			else if(i==9) {
+				System.out.println(""+temp+" pennies.");
 			  }
 		}//end for loop
 		scanner.close();
