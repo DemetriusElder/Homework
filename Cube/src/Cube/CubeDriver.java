@@ -1,5 +1,6 @@
 package Cube;
 import java.util.Scanner;
+import java.io.*;
 /** This is HW1. Problem 3. 4/30/2022
  * This program is to act as a driver class to test the cube class
  */
@@ -13,8 +14,8 @@ public class CubeDriver{
 		//initiates the inputcube variable calling the Cube constructor
 		Cube inputCube = new Cube(length);
 		//Pritns out the results of the called methods surfaceArea and volume
-		System.out.println("The surface area is: "+ inputCube.surfaceArea());
-		System.out.println("The volume is: "+ inputCube.volume());
+		System.out.printf("The surface area is: %.3f %n", inputCube.surfaceArea());
+		System.out.printf("The volume is: %.3f %n", inputCube.volume());
 		scanner.close();
 	}//ends main
 

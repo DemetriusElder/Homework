@@ -7,7 +7,7 @@ package Cube;
 public class Cube {
 	private double x;
 	//Allows the creation of object to set length
-	private Cube(double sideLength) {
+	public Cube(double sideLength) {
 		x = sideLength;
 	}//ends Cube
 	//Calculates surface area given length
