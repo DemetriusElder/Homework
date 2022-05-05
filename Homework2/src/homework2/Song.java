@@ -75,6 +75,6 @@ public class Song {
 	 *@returns a string of artist title genre.
 	 */
 	public String toString() {
-		return artist +" " + title  +" " + genre; 
+		return "Title : "+this.title +"\nArtist : " + this.artist  +"\nGenre : " + this.genre;
 	}
 }

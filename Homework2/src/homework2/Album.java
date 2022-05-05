@@ -59,6 +59,6 @@ public class Album {
 		favoriteTrack.setGenre(genre);
 	}
 	public String toString() {
-		return this.title +" " + this.artist  +" " + this.genre; 
+		return "Title : "+this.title +"\nArtist : " + this.artist  +"\nGenre : " + this.genre; 
 	}
 }
