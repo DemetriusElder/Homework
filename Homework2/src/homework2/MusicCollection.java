@@ -3,14 +3,14 @@ import java.util.Scanner;
 /** This is HW2. 5/04/2022
  * This program is to act as the main chunk of the compiling program.
  * Music collection is supposed to offer the user a variety of options.
- * Such as displaying album titles, being able to chaneg genre, and getting favorite track.
- * This cclass will call back to album as well as son
+ * Such as displaying album titles, being able to change genre, and getting favorite track.
+ * This class will call back to album as well as son
  * @author dewwy(Demetrius Elder)
  * Sorry thats my name in github dont know how to change it yet
  * @version 1
  */
 public class MusicCollection {
-	/*Serperate constructor for the insdie while loop
+	/* Seperate constructor for the inside while loop
 	 * @param albumName
 	 * This albumOptions is supposed to present the user with three options
 	 * get favorite track is supposed to call the favorite track of the previously selected album.
@@ -58,10 +58,16 @@ public class MusicCollection {
 		}
 		return;
 	}
+	/*
+	 * This is the main method to start the process of giving the user options to
+	 * pick an album then call albumOptions
+	 * @param
+	 * @return
+	 */
 
 	public static void main(String[] args) {
 		/*
-		 * Decleration for the songs and albums per homework
+		 * Declaration for the songs and albums per homework
 		 * Attempt to use all constructors
 		 * Input variable for the user input to select options by number
 		 */
