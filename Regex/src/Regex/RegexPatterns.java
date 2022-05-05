@@ -17,7 +17,7 @@ public class RegexPatterns {
 		return adress.matches("(^\\d{0,5})(\\s)(.*)(\\n)([^\\d]*)([^\\s\\d])(\\s?)([,]?)(\\s?)([A-Z]{2})(\\s{0,})(\\d{0,5})$");
 	}
 	public static boolean testJavaExecutable(String java) {
-		return java.matches("(^.*)(public)(\\s)(static)(\\s)(void)(\\s)(main)(\\()(String)(\\[)(\\])(\\s)(args)(\\))(.*)$");
+		return java.matches("(public)(\\s)(static)(\\s)(void)(\\s)(main)(\\()(String)(\\[)(\\])(\\s)(args)(\\))");
 	}
 
 }
