@@ -1,9 +1,9 @@
-/** This is HW2. 5/04/2022
+/** This is HW3. 
  * This program is to act as the interface for Arraylist.
  * Filled with abstract methods;
  * @author dewwy(Demetrius Elder)
  * Sorry thats my name in github dont know how to change it yet
- * @version %I%
+ * @version 1.1 5/07/2022
  */
 public interface List<T> {
 
