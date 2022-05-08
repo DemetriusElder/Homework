@@ -1,10 +1,10 @@
-/** This is HW2. 5/04/2022
+/** This is HW3. 
  * This program implements List.
  * Array List is a program to perform a multitude of functions to create a 'growing' array
  * It is still limited in it's default capacity but performs all other functions.
  * @author dewwy(Demetrius Elder)
  * Sorry thats my name in github dont know how to change it yet
- * @version %I%
+ * @version 1.1 5/07/2022
  */
 public class ArrayList<T> implements List<T> {
 
