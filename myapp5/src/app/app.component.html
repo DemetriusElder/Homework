@@ -1,0 +1,44 @@
+<!--Tell the html highlight--->
+<p [myHighlight]>Highlight me!</p>
+<p [myHighlight]="'violet'">Highlight me too!</p>
+<p [myHighlight]="'green'">Third Highlight me too!</p>
+<!--Accesses position of mouse once they click
+<div (mousedown)="myMouseHandler($event, 'mouse down')"
+(mouseup)="myMouseHandler($event, 'mouse up')">
+This area has<br />
+mouse-down<br />
+and<br />
+mouse-up<br />
+enabled.
+</div>
+ can save what is cut and poaste and copy
+    <h1>
+  Welcome to {{title}}!
+  </h1>
+  Cut from here:
+  <input [(ngModel)]="myContent" type='text' (cut)="cutEvent(myContent)"><br />
+  Paste in here:
+  <input type='text' [(ngModel)]="myPastedContent"
+  (paste)="pasteContent()">
+in and out of focus (When i click in and otu of the box)
+  <h1>
+  Welcome to {{title}}!
+  </h1>
+  <input type='text' (focus)="myFocusEvent('gainedFocus')"
+  (blur)="myFocusEvent('lostFocus')">
+Key logging
+  <h1>
+  Welcome to {{title}}!
+  </h1>
+  <input type='text' (keydown)="myKeyDown($event)">
+  <h1>
+  Welcome to {{title}}!
+  </h1>
+  <input type='text' (keyup)="myKeyUp($event)">
+Mouse logging
+<h1>
+  Welcome to {{title}}!
+  </h1>
+  <input type="submit" value="my button" (mouseenter)="myMouseEnter()">
+  <div ng-mouseleave="count = count + 1" ng-init="count=0">Mouse over me!
+    (and mouse away from me...)</div>--->
